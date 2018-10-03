@@ -95,7 +95,7 @@ Your final file should now look like this:
 <style lang="scss"></style>
 ```
 ## Registering the Component
-Back in `app.vue`, we need to update our template to use our new component.  The html we removed will be replaced with:
+Back in `App.vue`, we need to update our template to use our new component.  The html we removed will be replaced with:
 ```html
 <movie v-for="movie in movies" v-bind:movie="movie" v-bind:key="movie.id"></movie>
 ```
@@ -122,7 +122,7 @@ components: {
 	DisplayMovie
 },
 ```
-Your `app.vue` file should look like this:
+Your `App.vue` file should look like this:
 ```html
 <template>
   <div>
