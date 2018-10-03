@@ -73,6 +73,14 @@ Add this code:
 
 <style></style>
 ```
+Like our other component, this one consists of an HTML template, a form and buttons.  We again set the `props` to `movie`.  We also setup a couple of methods `closeAddModal()` and `saveMovieAdd()`.  
+
+In `closeAddModal()` we use the `$emit` to call a method in our parent file `App.vue`. 
+
+In `saveMovieAdd()` we do some error checking, and if the data is valid, we again use the `$emit` to call a method in our parent file.
+
+We will setup those parent methods in the next section.
+
 ## Registering the Component
 Back in `App.vue`, we need to update our template to use our new component. Add this line below the `<display-movie>` tag
 ```html
