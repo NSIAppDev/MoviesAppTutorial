@@ -34,8 +34,8 @@
 						description: 'Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order.'
 					}
 				]
-			},
-		}
+			}
+		},
 	}
 </script>
 <style lang="scss">
