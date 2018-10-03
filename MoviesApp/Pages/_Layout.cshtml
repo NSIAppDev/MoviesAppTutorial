@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - MoviesApp</title>
+
+	<link rel="stylesheet" href="~/css/movies.css" />
+</head>
+<body>
+	<nav class="navbar navbar-dark bg-primary navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a asp-page="/Index" class="navbar-brand">Movies</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a asp-page="/Index">Home</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container body-content">
+		@RenderBody()
+		<hr />
+		<footer>
+			<p>&copy; @DateTime.Now.Year - Movies Vue App</p>
+		</footer>
+	</div>
+
+	<script src="~/js/bundle.js"></script>
+
+	@RenderSection("Scripts", required: false)
+</body>
+</html>
