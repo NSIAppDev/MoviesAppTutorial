@@ -150,6 +150,6 @@ Contents of `AddMovie.vue`:
 Your output should look like:
 ![AddMovie](../images/AddMovieButton.jpg?raw=true)
 When you click the `Add Movie` button you should see:
-![AddMovie Modal](../images/AddMovieModal.jpg?raw=true)
+![AddMovie Modal](../images/AddMovieModal.JPG?raw=true)
 After entering details and clicking `Add Movie`, you should see:
 ![AddMovie Details](../images/AddMovieDetails.jpg?raw=true)

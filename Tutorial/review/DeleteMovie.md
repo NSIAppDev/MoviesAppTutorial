@@ -159,4 +159,4 @@ Contents of `DisplayMovie.vue`:
 <style lang="scss"></style>
 ```
 Your output should look like:
-![DeleteMovie](../images/DeleteMovieButton.jpg?raw=true)
+![DeleteMovie](../images/DeleteMovieButton.JPG?raw=true)

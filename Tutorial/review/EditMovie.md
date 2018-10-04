@@ -216,6 +216,6 @@ Contents of `EditMovie.vue`:
 ```
 
 Your output should look like:
-![EditMovie](../images/EditMovieButton.jpg?raw=true)
+![EditMovie](../images/EditMovieButton.JPG?raw=true)
 When you click the `Edit` button you should see:
-![EditMovie Modal](../images/EditMovieModal.jpg?raw=true)
+![EditMovie Modal](../images/EditMovieModal.JPG?raw=true)
