@@ -1,5 +1,5 @@
 # Welcome to the MovieDB Tutorial
-In this tutorial, we will show you, step by step, how to add features into this base application
+In this tutorial, we will show you, step by step, how to add features into this [base application](BaseApplication.md). 
 
 ## Suggested Extensions
 - [Webpack Task Runner](WebpackTaskRunner.md)
