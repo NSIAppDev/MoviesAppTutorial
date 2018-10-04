@@ -24,5 +24,5 @@ Technologies Used:
         1. NOTE: The first time it is run, it will download and install supporting packages, this can take up to 10 minutes
         2. If you get a build error related to a "Missing building" with node-sass, then create a command window in the `MovieApp` directory and type `npm rebuild node-sass`, run the command and rebuild
     3. The application should build and open in a browser.  It will display two movies.
-    ![Initial Screen](tutorial/images/Firstscreen.jpg)
-4. Start the [tutorial](tutorial/readme.md)
+    ![Initial Screen](Tutorial/images/FirstScreen.jpg?raw=true)
+4. Start the [tutorial](Tutorial/Readme.md)
