@@ -56,10 +56,53 @@ You will need to set `movies` to an empty array, so that your `data()` call is
 ```javascript
 data() {
 	return {
-		movies: []
+		movies: [],
 	}
 },
 ```
 
 When you run the application, no movies will be listed (your database is empty), however if you turn on your debugging tools, you can see a network request being made to `/api/movies`. 
 The request should return an empty JSON array.
+
+## Review
+Your `App.vue` file should now look like this:
+```html
+<template>
+  <div>
+    <div class="row">
+      <display-movie v-for="movie in movies" v-bind:movie="movie" v-bind:key="movie.id"></display-movie>
+    </div>
+  </div>
+</template>
+<script>
+  import DisplayMovie from './components/DisplayMovie'  
+  import axios from 'axios'
+  export default {
+	name: 'app',
+	components: {
+		DisplayMovie,
+	},
+	data() {
+		return {
+			movies: [],
+		}
+	},
+	methods: {
+		getMovies() {
+			axios({
+				method: 'GET', 'url': '/api/movies'
+			}).then(result => {
+				this.movies = result.data;
+			}, error => {
+				console.error(error);
+			});
+		},
+    },
+    mounted() {
+		this.getMovies();
+    },
+  }
+</script>
+<style lang="scss">
+</style>
+```
