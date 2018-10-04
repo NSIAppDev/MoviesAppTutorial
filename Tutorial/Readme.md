@@ -20,9 +20,9 @@ In this tutorial, we will show you, step by step, how to add features into this 
     2. Registering the Component
     3. Modifying initial state "data()"
     4. Adding methods
-    5. Creating Hook (v-on)
+    5. Creating a Hook (v-on)
     6. Adding button
-5. [Delete a movie](DeleteMovieComponent.md)
-    1. Creating Hook
-    2. Adding Method
+5. [Delete a Movie](DeleteMovieComponent.md)
+    1. Creating a Hook
+    2. Adding methods
     3. Adding button

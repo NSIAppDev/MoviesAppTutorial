@@ -279,3 +279,31 @@ Your `App.vue` file should now look like this:
 </style>
 
 ```
+Your `DisplayMovie.vue` file should look like:
+```html
+<template>
+	<div class="col-sm-4">
+		<div class="card mt-3">
+			<div class="card-body">
+				<h4 class="card-title">{{movie.title}}</h4>
+				<h6 class="card-subtitle mb-2 text-muted">{{movie.year}} - {{movie.director}}</h6>
+				<p class="card-text">
+					{{movie.description}}
+				</p>
+				<button class="btn btn-primary" v-on:click="editMovie(movie.id)">Edit</button>
+			</div>
+		</div>
+	</div>
+</template>
+<script type="text/javascript">
+	export default {
+		props: ['movie'],
+		methods: {
+			  editMovie(id) {
+				  this.$emit('edit-movie', id);
+			  },
+		},
+	};
+</script>
+<style lang="scss"></style>
+```
