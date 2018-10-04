@@ -1,6 +1,11 @@
 # Welcome to the MovieDB Tutorial
 In this tutorial, we will show you, step by step, how to add features into this base application
 
+## Suggested Extensions
+- [Webpack Task Runner](WebpackTaskRunner.md)
+- [Web Essentials 2017](WebEssetials2017.md)
+- [Vue.js pack 2017](Vuejspack2017.md)
+
 ## Tutorial Overview
 1. [Creating your first Component](DisplayMovieComponent.md)
     1. Setup

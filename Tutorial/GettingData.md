@@ -65,44 +65,4 @@ When you run the application, no movies will be listed (your database is empty),
 The request should return an empty JSON array.
 
 ## Review
-Your `App.vue` file should now look like this:
-```html
-<template>
-  <div>
-    <div class="row">
-      <display-movie v-for="movie in movies" v-bind:movie="movie" v-bind:key="movie.id"></display-movie>
-    </div>
-  </div>
-</template>
-<script>
-  import DisplayMovie from './components/DisplayMovie'  
-  import axios from 'axios'
-  export default {
-	name: 'app',
-	components: {
-		DisplayMovie,
-	},
-	data() {
-		return {
-			movies: [],
-		}
-	},
-	methods: {
-		getMovies() {
-			axios({
-				method: 'GET', 'url': '/api/movies'
-			}).then(result => {
-				this.movies = result.data;
-			}, error => {
-				console.error(error);
-			});
-		},
-    },
-    mounted() {
-		this.getMovies();
-    },
-  }
-</script>
-<style lang="scss">
-</style>
-```
+Compare your files against the [expected results](review/GettingData.md).

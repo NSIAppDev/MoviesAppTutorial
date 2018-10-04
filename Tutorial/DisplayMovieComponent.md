@@ -122,42 +122,5 @@ components: {
 	DisplayMovie,
 },
 ```
-Your `App.vue` file should look like this:
-```html
-<template>
-  <div>
-    <div class="row">
-      <display-movie v-for="movie in movies" v-bind:movie="movie" v-bind:key="movie.id"></display-movie>
-    </div>
-  </div>
-</template>
-<script>
-  import DisplayMovie from './components/DisplayMovie'
-  export default {
-	name: 'app',
-	components: {
-		DisplayMovie,
-	},
-	data() {
-		return {
-			movies: [
-				{
-					title: 'Avengers: Infinity War',
-					year: '2018',
-					director: 'Anthony Russo',
-					description: 'The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.'
-				},
-				{
-					title: 'The Last Jedi',
-					year: '2017',
-					director: 'Rian Johnson',
-					description: 'Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order.'
-				}
-			]
-		}
-	},
-  }
-</script>
-<style lang="scss">
-</style>
-```
+## Review
+Compare your files against the [expected results](review/DisplayMovie.md).

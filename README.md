@@ -20,7 +20,7 @@ Technologies Used:
         4. Select `Clone`
 3. Run Solution
     1. Open `MoviesApp.Sln` on the Solution Explorer
-    2. Hit F5 or the `IIS Express` button on the toolbar
+    2. Hit `Cntl-F5` to Start without Debugging
         1. NOTE: The first time it is run, it will download and install supporting packages, this can take up to 10 minutes
         2. If you get a build error related to a "Missing building" with node-sass, then create a command window in the `MovieApp` directory and type `npm rebuild node-sass`, run the command and rebuild
     3. The application should build and open in a browser.  It will display two movies.
