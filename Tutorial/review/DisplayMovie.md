@@ -61,4 +61,5 @@ Contents of `DisplayMovie.vue`:
 <style lang="scss"></style>
 ```
 Your output should look like:
+
 ![DisplayMovie](../images/FirstScreen.jpg?raw=true)
