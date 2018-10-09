@@ -1,5 +1,5 @@
 # Add a Movie
-Now that our code is getting data from our api, we need a way to add new data, using those same APIs.
+Now that our code is getting data from our API, we need a way to add new data, using those same APIs.
 We will do this with a new component.
 
 ## Writing the Component

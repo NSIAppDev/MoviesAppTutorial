@@ -31,4 +31,4 @@ Select `API` on the left side and the option for `API Controller with actions, u
 On the next screen, select your new Model, in our case `Movie` from the drop down. The Controller name should be automatically set to `MoviesController` and click `Add`
 ![New Controller](images/NewController.jpg)
 
-Further modififications were made to implement `NoDB` along with memory cache.  These changes are not covered in this tutorial.
+Further modifications were made to implement `NoDB` along with memory cache.  These changes are not covered in this tutorial.

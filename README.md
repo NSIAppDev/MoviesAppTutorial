@@ -5,15 +5,15 @@ Technologies Used:
 * Vue 2.5.X
 * NoDB (for data storage)
 * SASS (for CSS development)
-* webpack (for compiling and loading packages)
+* Webpack (for compiling and loading packages)
 ## Getting Starting
 1. Download and Install Visual Studio Community Edition 
     1. Download from https://visualstudio.microsoft.com/
     2. Start Installation, using option for `ASP.NET and web development` package    
-2. Setup Respository
+2. Setup Repository
     1. Start Visual Studio Community Edition
-    2. Signin with your microsoft ID (it's free)
-    2. Connect to respository
+    2. Sign in with your Microsoft ID (it's free)
+    2. Connect to repository
         1. From file menu, select `Team` then `Manage Connections`
         2. Under `Local Git Repositories` select `Clone`
         3. Use the URL from the `Clone or Download` button on this GIT page

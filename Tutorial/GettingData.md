@@ -27,7 +27,7 @@ The first step is to import the Axios library.  In `App.vue`, we will modify the
 import axios from 'axios'
 ```
 
-Next, we need to add methods that will get the movies from our api.  We need to add a new section in our `script` for `methods`.  This should be added after the `components` and `data()` section
+Next, we need to add methods that will get the movies from our API.  We need to add a new section in our `script` for `methods`.  This should be added after the `components` and `data()` section
  ```javascript
 methods: {
 	getMovies() {
@@ -50,7 +50,7 @@ mounted() {
 },
 ```
 ## Replacing Seed data 
-Now that we are able to retrieve information from the api, we will replace our seed data with an empty ararry.
+Now that we are able to retrieve information from the API, we will replace our seed data with an empty array.
 However, I would suggest you keep the values close by, as you may want to use them to repopulate your database.
 You will need to set `movies` to an empty array, so that your `data()` call is
 ```javascript

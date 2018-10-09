@@ -2,13 +2,13 @@
 A component is a reusable vue instances.  Templates that can be used in place of static HTML.
 
 ## Setup
-Before we begin, it is a good idea to be organized, and therefor, we will create a folder for our components.  Components should be name with two words, usually an action and a object. In our case "DisplayMovie".  Components are files that end in ".vue".
+Before we begin, it is a good idea to be organized, and therefor, we will create a folder for our components.  Components should be name with two words, usually an action and a object. In our case `DisplayMovie`.  Components are files that end in `.vue`.
 Open the file structure of the application and create a new folder called `components` under the `App` folder.
 
 ![Create Components Directory](images/CreateComponentsDir.jpg)
 
 ## Writing the Component
-Now that we have our directory, go ahead and create a new file called "DisplayMovie.vue".
+Now that we have our directory, go ahead and create a new file called `DisplayMovie.vue`.
 Right click on the components directory, select `Add` then `New File`, type `DisplayMovie.vue` and press enter.
 Your file should automatically open.
 
@@ -63,7 +63,7 @@ Back in `DisplayMovie.vue` we will paste in our html that was inside the row div
 </template>
 ```
 You will notice that we removed the `v-for` and `v-bind` commands.  To rewire the data, we add a `props` property in our `export` and define it as our `movie` object.
-Update the javascript to this:
+Update the JavaScript to this:
 ```javascript
 <script type="text/javascript">
 	export default {
@@ -109,7 +109,7 @@ giving us a template section that now looks like this:
 	</div>
 </template>
 ```
-We have re-introduced our `v-for` and `v-bind`, but have also extneded it by using the object `movie`
+We have re-introduced our `v-for` and `v-bind`, but have also extended it by using the object `movie`
 
 Before we can run the code, we need to register the component with an `import` command 
 In the `script` section, add this line

@@ -1,5 +1,5 @@
 # Delete a Movie
-We get get data, add data and edit data.  Our next step is to remove data.
+We can get data, add data and edit data.  Our next step is to remove data.
 This step doesn't actually use a component, just a series of methods and hooks.
 
 ## Creating a Hook
