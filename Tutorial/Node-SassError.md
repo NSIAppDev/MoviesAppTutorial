@@ -4,7 +4,7 @@ If you are unable to build the application, or the task runner for webpack is fa
 # Change the order of external tools
 1. Navigate to 
 `Tools` -> `Options...` -> `Projects and Solutions` -> `Web Package Mangement` -> `External Web Tools`
-2. Use the up arrow to moev `$(PATH)` to the top of the list
+2. Use the up arrow to move `$(PATH)` to the top of the list
 ![External Web Tools](images/ExternalWebTools.jpg)
 
 # Rebuild node-sass

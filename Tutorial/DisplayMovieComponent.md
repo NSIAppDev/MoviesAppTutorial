@@ -1,8 +1,8 @@
 # Creating Your First Component
-A component is a reusable vue instances.  Templates that can be used in place of static HTML.
+A component is a reusable vue instance.  A component consists of a HTML (template), JavaScript and CSS.  An HTML Template is a section of HTML that can be used in place of static HTML on a page.  It can be used in a loop, or called dynamically.  The JavaScript section contains relevant functions or properties of the component.  The CSS section can contain related styles. For the purposes of this tutorial, we are not using component CSS, but rely on the SASS file.
 
 ## Setup
-Before we begin, it is a good idea to be organized, and therefor, we will create a folder for our components.  Components should be name with two words, usually an action and a object. In our case `DisplayMovie`.  Components are files that end in `.vue`.
+Before we begin, it is a good idea to be organized, and therefor, we will create a folder for our components.  Components should be name with two words, usually an action and an object. In our case `DisplayMovie`.  Components are files that end in `.vue`.
 Open the file structure of the application and create a new folder called `components` under the `App` folder.
 
 ![Create Components Directory](images/CreateComponentsDir.jpg)
@@ -97,7 +97,7 @@ Your final file should now look like this:
 ## Registering the Component
 Back in `App.vue`, we need to update our template to use our new component.  The html we removed will be replaced with:
 ```html
-<movie v-for="movie in movies" v-bind:movie="movie" v-bind:key="movie.id"></movie>
+<display-movie v-for="movie in movies" v-bind:movie="movie" v-bind:key="movie.id"></display-movie>
 ```
 giving us a template section that now looks like this:
 ```html
@@ -109,7 +109,9 @@ giving us a template section that now looks like this:
 	</div>
 </template>
 ```
-We have re-introduced our `v-for` and `v-bind`, but have also extended it by using the object `movie`
+We have re-introduced our `v-for` and `v-bind`, but have also extended it by using the object `movie`.  
+You may notice that the component is called with `display-movie` even though we saved the file as `DisplayMovie.vue` and registered it as `DisplayMovie`.
+The reason for this is because `Vue` components are saved in PascalCase, but HTML is acted upon in kebab-case.  So `DisplayMovie` becomes `display-movie`.
 
 Before we can run the code, we need to register the component with an `import` command 
 In the `script` section, add this line

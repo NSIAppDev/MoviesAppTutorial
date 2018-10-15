@@ -43,7 +43,7 @@ methods: {
 ```
 When called, this method performs a GET command to `/api/movies` and returns the result.
 
-In order to run this command, we will a new section that will run when the page is loaded
+In order to run this command, we will add a new section that will run when the page is loaded
 ```javascript
 mounted() {
 	this.getMovies();
