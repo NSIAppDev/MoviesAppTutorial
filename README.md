@@ -22,7 +22,7 @@ Technologies Used:
     1. Open `MoviesApp.Sln` on the Solution Explorer
     2. Hit `Cntl-F5` to Start without Debugging
         1. NOTE: The first time it is run, it will download and install supporting packages, this can take up to 10 minutes
-        2. If you get a build error related to a "Missing building" with node-sass, then create [follow these instructions](Tutorial/Node-SassError.md)
+        2. If you get a build error related to a "Missing binding" with node-sass, then create [follow these instructions](Tutorial/Node-SassError.md)
     3. The application should build and open in a browser.  It will display two movies.
     ![Initial Screen](Tutorial/images/FirstScreen.jpg?raw=true)
 4. Start the [tutorial](Tutorial/Readme.md)
