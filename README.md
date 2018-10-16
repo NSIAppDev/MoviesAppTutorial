@@ -1,11 +1,11 @@
 # Movie DB (Vue Web App)
 This project is meant to provide an example application of a .Net Core, Vue web application
 Technologies Used:
-* .NET Core 2.0
-* Vue 2.5.X
-* NoDB (for data storage)
-* SASS (for CSS development)
-* Webpack (for compiling and loading packages)
+* [.NET Core](https://docs.microsoft.com/en-us/dotnet/core/) 2.0
+* [Vue.js](https://vuejs.org/) 2.5.X
+* [NoDB](https://github.com/cloudscribe/NoDb) (for data storage)
+* [SASS](https://sass-lang.com/) (for CSS development)
+* [Webpack](https://webpack.js.org/) (for compiling and loading packages)
 ## Getting Starting
 1. Download and Install Visual Studio Community Edition 
     1. Download from https://visualstudio.microsoft.com/
