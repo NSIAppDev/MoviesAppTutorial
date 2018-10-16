@@ -9,7 +9,8 @@ Technologies Used:
 ## Getting Starting
 1. Download and Install Visual Studio Community Edition 
     1. Download from https://visualstudio.microsoft.com/
-    2. Start Installation, using option for `ASP.NET and web development` package    
+    2. Start Installation, using option for `ASP.NET and web development` package
+    3. Once installed, run Visual Studio, and [change your `$(PATH)` location](Tutorial/ChangePath.md)
 2. Setup Repository
     1. Start Visual Studio Community Edition
     2. Sign in with your Microsoft ID (it's free)
